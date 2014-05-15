@@ -34,6 +34,7 @@ inc/ICU-license.html
 inc/readme.txt
 lib/Math/decNumber.pm
 lib/Math/decNumber.pod
+LICENSE
 Makefile.PL
 MANIFEST
 ppport.h

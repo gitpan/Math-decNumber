@@ -363,7 +363,7 @@ ok( !IsNegative( d_ +3.2) );
 
 ok( IsNormal( d_ -3.2) );
 
-ok( !IsNormal( d_(1e-999))  );
+ok( !IsNormal( d_('1e-9999'))  );
 
 ok( IsQNaN( d_(0) /0 ) );
 

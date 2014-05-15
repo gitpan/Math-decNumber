@@ -7,7 +7,7 @@ use t::tool;
 # change 'tests => 1' to 'tests => last_test_to_print';
 
 use Test::More;
-BEGIN { plan tests => 1042  };
+BEGIN { plan tests => 1032  };
 
 test_file("t/decNumberTest/multiply.decTest");
 

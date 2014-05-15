@@ -1,4 +1,4 @@
-Math-decNumber version 0.01
+Math-decNumber version 0.02
 ===========================
 
 The Math::decNumber module is a Perl interface to the decNumber C library.

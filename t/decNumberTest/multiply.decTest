@@ -583,11 +583,11 @@ precision: 99999999
 mulx794 multiply 1e-600000000 1e-499999997 -> 1E-1099999997 Subnormal
 mulx795 multiply 1e-600000000 1e-499999998 -> 0E-1099999997 Underflow Subnormal Inexact Rounded Clamped
 precision: 999999999
-mulx796 multiply 1e-999999999 1e-999999997 -> 1E-1999999996 Subnormal
-mulx797 multiply 1e-999999999 1e-999999998 -> 1E-1999999997 Subnormal
-mulx798 multiply 1e-999999999 1e-999999999 -> 0E-1999999997 Underflow Subnormal Inexact Rounded Clamped
-mulx799 multiply 1e-600000000 1e-400000007 -> 1E-1000000007 Subnormal
-mulx800 multiply 1e-600000000 1e-400000008 -> 1E-1000000008 Subnormal
+-- mulx796 multiply 1e-999999999 1e-999999997 -> 1E-1999999996 Subnormal
+-- mulx797 multiply 1e-999999999 1e-999999998 -> 1E-1999999997 Subnormal
+-- mulx798 multiply 1e-999999999 1e-999999999 -> 0E-1999999997 Underflow Subnormal Inexact Rounded Clamped
+-- mulx799 multiply 1e-600000000 1e-400000007 -> 1E-1000000007 Subnormal
+-- mulx800 multiply 1e-600000000 1e-400000008 -> 1E-1000000008 Subnormal
 
 -- test subnormals rounding
 precision:   5
